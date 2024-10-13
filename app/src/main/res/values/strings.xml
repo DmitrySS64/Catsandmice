@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Cats and mice</string>
+    <string name="tv_am_mouse_count">Количество мышей</string>
+    <string name="tv_am_mouse_speed">Скорость мышей</string>
+    <string name="tv_am_mouse_size">Размер мышей</string>
+    <string name="tv_am_mouse_speed_value">%1$d dp/sec</string>
+    <string name="btn_am_start">Играть</string>
+    <string name="btn_am_stats">Статистика</string>
+    <string name="stats_item_id">Номер попытки: %1$d</string>
+    <string name="stats_item_total_clicks">Общие количество нажатий: %1$d</string>
+    <string name="stats_item_mouse_clicks">Количество попаданий: %1$d</string>
+    <string name="stats_item_percentage_of_hits">Процент попаданий: %1$d%%</string>
+    <string name="game_total_clicks">Количество нажатий: %1$d</string>
+    <string name="game_mouse_clicks">Попаданий: %1$d</string>
+    <string name="stats_item_time">Время игры: %1$s</string>
+</resources>

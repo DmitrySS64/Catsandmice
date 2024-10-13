@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="main_activity_padding_x">16dp</dimen>
+    <dimen name="main_activity_padding_y">8dp</dimen>
+    <dimen name="list_item_padding_x">8dp</dimen>
+    <dimen name="list_item_padding_y">4dp</dimen>
+    <dimen name="mouse_count_min">1</dimen>
+    <dimen name="text_margin">16dp</dimen>
+</resources>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingHorizontal="@dimen/list_item_padding_x"
+    android:paddingVertical="@dimen/list_item_padding_y"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/item_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/stats_item_id"
+        android:textAppearance="?attr/textAppearanceListItem" />
+
+    <TextView
+        android:id="@+id/item_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/stats_item_time"/>
+    <TextView
+        android:id="@+id/total_clicks"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/stats_item_total_clicks"
+        android:textAppearance="?attr/textAppearanceListItemSecondary" />
+    <TextView
+        android:id="@+id/mouse_clicks"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/stats_item_mouse_clicks"
+        android:textAppearance="?attr/textAppearanceListItemSecondary" />
+    <TextView
+        android:id="@+id/percent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/stats_item_percentage_of_hits"
+        android:textAppearance="?attr/textAppearanceListItemSecondary" />
+</LinearLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="mouses">
+        <item>@drawable/mouse_1</item>
+        <item>@drawable/mouse_2</item>
+        <item>@drawable/mouse_3</item>
+        <item>@drawable/mouse_4</item>
+        <item>@drawable/mouse_5</item>
+        <item>@drawable/mouse_6</item>
+        <item>@drawable/mouse_7</item>
+        <item>@drawable/mouse_8</item>
+    </string-array>
+</resources>

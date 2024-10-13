@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_nav"
+    app:startDestination="@id/startFragment">
+
+    <fragment
+        android:id="@+id/startFragment"
+        android:name="ru.sergeevdmitry8i11.catsandmice.StartFragment"
+        android:label="fragment_start"
+        tools:layout="@layout/fragment_start" >
+        <action
+            android:id="@+id/action_startFragment_to_gameActivity"
+            app:destination="@id/gameActivity" >
+            <argument
+                android:name="MICE_COUNT"
+                android:defaultValue="1" />
+            <argument
+                android:name="SPEED"
+                android:defaultValue="200" />
+        </action>
+        <action
+            android:id="@+id/action_startFragment_to_statsFragment"
+            app:destination="@id/statsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/statsFragment"
+        android:name="ru.sergeevdmitry8i11.catsandmice.StatsFragment"
+        android:label="fragment_stats_list"
+        tools:layout="@layout/fragment_stats_list" />
+    <activity
+        android:id="@+id/gameActivity"
+        android:name="ru.sergeevdmitry8i11.catsandmice.GameActivity"
+        android:label="activity_game"
+        tools:layout="@layout/activity_game" >
+        <argument
+            android:name="MICE_COUNT"
+            app:argType="integer"
+            android:defaultValue="1" />
+        <argument
+            android:name="SPEED"
+            app:argType="integer"
+            android:defaultValue="200" />
+    </activity>
+</navigation>
